@@ -1,0 +1,125 @@
+{
+  "name": "Mapas Branco Peres - Sistema Agrícola",
+  "short_name": "Mapas BP",
+  "description": "Sistema completo para gestão e visualização de mapas agrícolas com ferramentas avançadas de GPS e categorização",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#65a30d",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "categories": ["productivity", "business", "utilities", "agriculture"],
+  "screenshots": [
+    {
+      "src": "/logo-branco-peres.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Dashboard do Sistema de Mapas Agrícolas"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/logo-branco-peres.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo-branco-peres.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo-branco-peres.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo-branco-peres.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo-branco-peres.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo-branco-peres.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo-branco-peres.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo-branco-peres.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Ver Mapas",
+      "short_name": "Mapas",
+      "description": "Visualizar todos os mapas cadastrados",
+      "url": "/?tab=mapas",
+      "icons": [
+        {
+          "src": "/logo-branco-peres.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Fazer Upload",
+      "short_name": "Upload",
+      "description": "Fazer upload de novos mapas",
+      "url": "/?tab=upload",
+      "icons": [
+        {
+          "src": "/logo-branco-peres.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Estatísticas",
+      "short_name": "Stats",
+      "description": "Ver dashboard de estatísticas",
+      "url": "/?tab=estatisticas",
+      "icons": [
+        {
+          "src": "/logo-branco-peres.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "protocol_handlers": [
+    {
+      "protocol": "web+mapas",
+      "url": "/?action=%s"
+    }
+  ]
+}
